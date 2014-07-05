@@ -90,22 +90,20 @@ div#home a#btn-preorder {
   font-weight: bold;
 }
 
-div#home div.jumbotron {
+div#home div#lodestar-callout {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
-}
-
-div#home div#lodestar-callout.jumbotron {
   background: url('/assets/lodestar-callout.jpg');
   color: #fff;
+  padding: 16px;
+  margin-bottom: 16px;
 }
 
-div#home div#lodestar-callout.jumbotron p.title {
+div#home div#lodestar-callout p.title {
   font-family: 'Six Caps', sans-serif;
   line-height: 50px;
   color: #fff;
   font-size: 42px;
-  display: block;
   letter-spacing: 1px;
 }
 
@@ -216,10 +214,26 @@ div#about img#sudoplay-logo {
   /*margin: 0 auto;*/
 }
 
+.visible-xxs-block, 
+.visible-xxs-inline,
+.visible-xxs-inline-block {
+  display: none;
+}
+
+.hidden-xxs-block { display: block; }
+.hidden-xxs-inline { display: inline; }
+.hidden-xxs-inline-block { display: inline-block; }
+
 @media screen and (max-width: 500px) {
 
-  .visible-xxs {
-
+  .hidden-xxs-block, 
+  .hidden-xxs-inline,
+  .hidden-xxs-inline-block {
+    display: none;
   }
+
+  .visible-xxs-block { display: block; }
+  .visible-xxs-inline { display: inline; }
+  .visible-xxs-inline-block { display: inline-block; }
   
 }
