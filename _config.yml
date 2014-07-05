@@ -1,11 +1,11 @@
 # Site settings
 title: SudoPlay Games
-email: your-email@domain.com
+email: business@sudoplaygames.com
 description: "SudoPlay Games is a small, independent game studio located in Oregon, USA."
 baseurl: ""
 url: "http://localhost:4000"
 twitter_username: sudoplaygames
-github_username:  jekyll
+github_username:  sudoplaygames
 
 # Build settings
 markdown: kramdown
