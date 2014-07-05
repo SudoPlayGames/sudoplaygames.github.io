@@ -2,6 +2,10 @@ a.btn-success {
   color: #fff;
 }
 
+a.btn-primary {
+  color: #000;
+}
+
 a.btn-default:hover {
   color: #000;
 }
@@ -10,27 +14,31 @@ a.btn-default:hover {
   border-top: #53b5b5 solid 4px;
 }
 
+.navbar .container {
+  padding-left: 4px;
+}
+
 .navbar-default .navbar-nav>li>a:hover {
   color: #000;
 }
 
-.navbar-default .navbar-brand {
+.navbar-default .brand-text {
   padding: 0px;
   font-family: 'Six Caps', sans-serif;
   line-height: 50px;
   font-size: 42px;
   letter-spacing: 1px;
-  position: absolute;
-  top: -18px;
   color: #000;
+  padding-left: 100px;
 }
 
-.navbar-default .navbar-brand:hover {
-  color: #53b5b5;
+.navbar-default .brand-logo {
+  position: absolute;
+  top: 0px;
 }
-.navbar-brand img {
-  display: inline-block;
-  margin-right: 8px;
+
+.navbar-default .brand-text:hover {
+  color: #53b5b5;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover {
@@ -72,6 +80,18 @@ a.btn-default:hover {
   color: #000;
 }
 
+.btn-primary {
+  background-color: #ffc042;
+  background-color: #ffaa00;
+  border-color: #000;
+}
+
+.btn-primary:hover {
+  background-color: #ffbf40;
+  border-color: #000;
+  color: #000;
+}
+
 
 /* 
  * Home 
@@ -97,6 +117,11 @@ div#home div#lodestar-callout {
   color: #fff;
   padding: 16px;
   margin-bottom: 16px;
+}
+
+div#home div#lodestar-callout .os {
+  font-size: 32px;
+  opacity: 0.5;
 }
 
 div#home div#lodestar-callout p.title {
@@ -216,15 +241,9 @@ div#about .avatar-container .badge {
   display: none;
 }
 
-.hidden-xxs-block { display: block; }
-.hidden-xxs-inline { display: inline; }
-.hidden-xxs-inline-block { display: inline-block; }
-
 @media screen and (max-width: 500px) {
 
-  .hidden-xxs-block, 
-  .hidden-xxs-inline,
-  .hidden-xxs-inline-block {
+  .hidden-xxs {
     display: none;
   }
 
@@ -236,21 +255,24 @@ div#about .avatar-container .badge {
 
 @media screen and (max-width: 768px) {
 
-  .navbar-collapse {
-    /*border-top: none;*/
-  }
-
   .navbar-nav {
     margin-top: 0px;
+  }
+
+  .navbar .container {
+    padding-left: 15px;
   }
 
 }
 
 @media screen and (max-width: 991px) {
 
-  .navbar-default .navbar-brand {
-    position: relative;
-    top: -2px;
+  .navbar-default .brand-logo {
+    top: 0px;
+  }
+
+  .navbar-default .brand-text {
+    padding-left: 64px;
   }
 
 }
