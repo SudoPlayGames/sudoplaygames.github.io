@@ -237,17 +237,20 @@ div#about .avatar-container .badge {
 @media screen and (max-width: 768px) {
 
   .navbar-collapse {
-    border-top: none;
+    /*border-top: none;*/
   }
 
   .navbar-nav {
     margin-top: 0px;
   }
 
-.navbar-default .navbar-brand {
-  position: relative;
-  top: -2px;
 }
 
+@media screen and (max-width: 991px) {
+
+  .navbar-default .navbar-brand {
+    position: relative;
+    top: -2px;
+  }
 
 }
