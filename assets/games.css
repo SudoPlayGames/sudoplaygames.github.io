@@ -210,10 +210,6 @@ div#about .avatar-container .badge {
   padding: 5px 9px;
 }
 
-div#about img#sudoplay-logo {
-  /*margin: 0 auto;*/
-}
-
 .visible-xxs-block, 
 .visible-xxs-inline,
 .visible-xxs-inline-block {
@@ -236,4 +232,22 @@ div#about img#sudoplay-logo {
   .visible-xxs-inline { display: inline; }
   .visible-xxs-inline-block { display: inline-block; }
   
+}
+
+@media screen and (max-width: 768px) {
+
+  .navbar-collapse {
+    border-top: none;
+  }
+
+  .navbar-nav {
+    margin-top: 0px;
+  }
+
+.navbar-default .navbar-brand {
+  position: relative;
+  top: -2px;
+}
+
+
 }
