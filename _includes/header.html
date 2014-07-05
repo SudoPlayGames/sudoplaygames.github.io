@@ -17,7 +17,8 @@
         {% else %}
           <li><a href="/"><i class="fa fa-home fa-lg"></i>&nbsp;&nbsp;Home</a></li>
         {% endif %}
-        {% for node in site.pages %}
+        {% assign sorted_pages = site.pages | sort:"name" %}
+        {% for node in sorted_pages %}
           {% if node.title %}
             {% if page.url == node.url %}
               <li class="active"> {% else %} <li> {% endif %}
