@@ -196,7 +196,7 @@ div#about .avatar-container ul {
 
 div#about .avatar-container ul a {
   font-size: 24px;
-  color: #828282;
+  color: #53b5b5;
 }
 
 div#about .avatar-container ul a:hover {
@@ -207,6 +207,11 @@ div#about .avatar-container iframe {
   margin-top: 8px;
 }
 
+div#about .avatar-container .badge {
+  font-weight: normal;
+  padding: 5px 9px;
+}
+
 div#about img#sudoplay-logo {
   /*margin: 0 auto;*/
 }
@@ -214,7 +219,7 @@ div#about img#sudoplay-logo {
 @media screen and (max-width: 500px) {
 
   .visible-xxs {
-    
+
   }
   
 }
