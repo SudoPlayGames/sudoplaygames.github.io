@@ -1,0 +1,58 @@
+<footer class="site-footer">
+
+  <div class="wrap container-fluid">
+
+    <div class="col-md-2">
+      <img src="/assets/logo-small.png" />
+    </div>
+
+    <div class="col-md-3">
+      <ul>
+        <li>{{ site.title }}</li>
+        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+      </ul>
+    </div>
+    
+    <div class="col-md-3">
+      <ul>
+
+        {% if site.github_username %}
+        <li>
+          <a href="https://github.com/{{ site.github_username }}">
+            <i class="fa fa-github"></i>
+            <span class="username">{{ site.github_username }}</span>
+          </a>
+        </li>
+        {% endif %}
+
+        {% if site.twitter_username %}
+        <li>
+          <a href="https://twitter.com/{{ site.twitter_username }}">
+            <i class="fa fa-twitter"></i>
+            <span class="username">@{{ site.twitter_username }}</span>
+          </a>
+        </li>
+        {% endif %}
+
+        <li>
+          <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+            <i class="fa fa-rss"></i>
+            RSS
+          </a>
+        </li>
+
+      </ul>
+    </div>
+
+    <div class="col-md-4">
+      <p class="text">{{ site.description }}</p>
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/assets/bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>

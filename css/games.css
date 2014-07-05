@@ -1,0 +1,154 @@
+a.btn-success {
+  color: #fff;
+}
+
+a.btn-default:hover {
+  color: #000;
+}
+
+.navbar {
+  border-top: #53b5b5 solid 4px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  /*background-color: #dffcfc;*/
+  /*height: 50px;
+  border-bottom: #53b5b5 solid 2px;*/
+  color: #000;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover {
+  background-color: #53b5b5;
+  color: #fff;
+  font-weight: bold;
+  height: 50px;
+  border-bottom: #7fd7d7 solid 3px;
+}
+
+
+/* 
+ * Home 
+ * =================================================================
+ */
+
+ div#home h1 {
+  font-size: 24px;
+  letter-spacing: -1.75px;
+  line-height: 1;
+  font-weight: 300;
+  margin-top: 0px;
+}
+
+div#home a#btn-preorder {
+  font-weight: bold;
+}
+
+div#home div.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+div#home div#lodestar-callout.jumbotron {
+  background: url('/assets/lodestar-callout.jpg');
+  color: #fff;
+}
+
+
+/* 
+ * Games 
+ * =================================================================
+ */
+
+ div#game {
+  width: 785px;
+  border: #000 solid 1px;
+  padding-bottom: 8px;
+  margin: 0px auto;
+  background-color: #e3eafc;
+}
+
+div#game .game-title-image {
+  width: 785px;
+  height: 50px;
+  margin-bottom: 8px;
+  border-bottom: #000 solid 1px;
+}
+
+div#games div#game-lodestar.panel div.panel-heading {
+  background: url('/assets/lodestar.png');
+}
+
+div#games div#game-lodestar.panel div.panel-heading h3.panel-title {
+  height: 50px;
+  font-family: 'Six Caps', sans-serif;
+  line-height: 50px;
+  color: #fff;
+  font-size: 42px;
+  display: block;
+  letter-spacing: 1px;
+}
+
+div#games div#game-lodestar.panel div.panel-heading h3.panel-title.visible-xs {
+  height: 40px;
+  line-height: 40px;
+  font-size: 32px;
+}
+
+div#games div.panel-footer a {
+  float: right;
+  margin-left: 8px;
+}
+
+div#games div.panel-footer span.os {
+  font-size: 18px;
+  color: #999;
+}
+
+div#game-description {
+  width: 785px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+
+/* 
+ * About
+ * =================================================================
+ */
+
+ div#about img#sudoplay-logo, div#about p#about-text {
+ }
+
+ div#about div.container-fluid {
+  margin-bottom: 32px;
+}
+
+div#about h2 {
+  margin: 0px;
+  font-family: 'Six Caps', sans-serif;
+  font-size: 32px;
+}
+
+div#about .avatar-container {
+  text-align: center;
+}
+
+div#about .avatar-container ul {
+  margin-left: 0px;
+  padding-left: 0px;
+  list-style: none;
+  font-size: 14px;
+  color: #666;
+}
+
+div#about .avatar-container ul a {
+  font-size: 32px;
+}
+
+div#about .avatar-container iframe {
+  margin-top: 8px;
+}
+
+div#about img#sudoplay-logo {
+  /*margin: 0 auto;*/
+}
