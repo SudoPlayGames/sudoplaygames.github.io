@@ -27,12 +27,13 @@ CACHE:
 /assets-3rd-party/font-awesome-4.1.0/fonts/fontawesome-webfont.ttf
 /assets-3rd-party/font-awesome-4.1.0/fonts/fontawesome-webfont.woff
 
-{% for page in site.pages %}
-{{ page.url }}/
-{% endfor %}
+/index.html
+/about/index.html
+/code/index.html
+/games/index.html
 
 {% for post in site.posts %}
-{{ post.id }}/
+{{ post.id }}/index.html
 {% endfor %}
 
 NETWORK:
