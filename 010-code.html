@@ -3,25 +3,22 @@ layout: page
 title: Code
 permalink: /code/
 icon: fa-code
+codeitems:
+  - title: Axion
+    desc: Axion is a Java library for manipulating NBT. Axion can use multiple configurations and supports the original spec and a custom extended spec right out of the box. The library provides an interface that can easily be extended to add NBT serialization support to your custom classes and object to NBT mapper utilities that can be registered with Axion when implementation of the aforementioned interface is impossible.
+    url:  https://github.com/SudoPlayGames/Axion
+    bugs: https://github.com/SudoPlayGames/Axion/issues
+
+  - title: Joise
+    desc: Joise is a 2D, 3D, 4D and 6D modular noise library written in Java. Joise was derived from <a href="http://accidentalnoise.sourceforge.net/index.html">Joshua Tippetts' C++ Accidental Noise Library</a> to facilitate the creation of complex noise functions from chained modules, and represent the chained modules in a consistent, ordered format for serialization.
+    url:  https://github.com/SudoPlayGames/Joise
+    bugs: https://github.com/SudoPlayGames/Joise/issues
 ---
 
 <div id="code">
 
-  <div id="code-lodestar" class="panel panel-default">
-    <div class="panel-heading">
-      <h3 class="panel-title">Axion</h3>
-    </div>
-    <div class="panel-body">
-      Axion is a library for manipulating that popular NBT format.
-    </div>
-    <div class="panel-footer">
-      <a class="btn btn-default" href="https://github.com/SudoPlayGames/Axion">
-        <i class="fa fa-github fa-lg"></i>&nbsp;Fork
-      </a>
-      <a class="btn btn-default" href="https://github.com/SudoPlayGames/Axion/issues">
-        <i class="fa fa-bug fa-lg"></i>&nbsp;Bugs
-      </a>
-    </div>
-  </div>
+  {% for codeitem in page.codeitems %}
+    {% include code-item.html %}
+  {% endfor %}
 
 </div>

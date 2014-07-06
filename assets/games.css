@@ -260,6 +260,16 @@ div#code h3.panel-title {
   letter-spacing: 1px;
 }
 
+div#code div.panel-footer a {
+  float: right;
+  margin-left: 8px;
+  color: #333;
+}
+
+div#code div.panel-footer a:hover {
+  color: #000;
+}
+
 @media screen and (max-width: 500px) {
 
   .hidden-xxs {
