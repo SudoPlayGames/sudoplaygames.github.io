@@ -127,6 +127,7 @@ div#home div#lodestar-callout {
   color: #fff;
   padding: 16px;
   margin-bottom: 16px;
+  border-radius: 8px;
 }
 
 div#home div#lodestar-callout .os {
