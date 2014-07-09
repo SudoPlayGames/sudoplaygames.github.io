@@ -1,6 +1,12 @@
 <div class="panel panel-default">
   <div class="panel-heading">
     <h3 class="panel-title">{{ codeitem.title }}</h3>
+    {% if codeitem.lang %}
+    <span class="badge">{{ codeitem.lang }}</span>
+    {% endif %}
+    {% if codeitem.license %}
+    <span class="badge">{{ codeitem.license }}</span>
+    {% endif %}
   </div>
   <div class="panel-body">{{ codeitem.desc }}</div>
   <div class="panel-footer">

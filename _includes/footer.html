@@ -3,7 +3,7 @@
   <div class="wrap container-fluid">
 
     <div class="info col-md-6 col-xs-12">
-    <img class="logo" src="/assets/logo-small.png" />
+      <img class="logo" src="/assets/logo-small.png" />
 
       <ul>
         <li class="site-title">{{ site.title }}</li>
@@ -43,27 +43,26 @@
 
 </footer>
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="/assets-3rd-party/bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
-
 <script type="text/javascript">
 // Check if a new cache is available on page load.
-window.addEventListener('load', function(e) {
+$(document).ready(function(e) {
 
-  window.applicationCache.addEventListener('updateready', function(e) {
-    if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
-      // Browser downloaded a new app cache.
-      // Swap it in and reload the page to get the new hotness.
-      window.applicationCache.swapCache();
-      //if (confirm('A new version of this site is available. Load it?')) {
-        window.location.reload();
-      //}
-    } else {
-      // Manifest didn't changed. Nothing new to server.
-    }
-  }, false);
+  var appCache = window.applicationCache;
 
-}, false);
+  $(appCache).bind('checking', function(e) {
+    $('#content-updating').css('display', 'block');
+    $('#content-updated').css('display', 'none');
+  });
+
+  $(appCache).bind('updateready', function(e) {
+    appCache.swapCache();
+    window.location.reload();
+  });
+
+  $(appCache).bind('noupdate', function(e) {
+    $('#content-updating').css('display', 'none');
+    $('#content-updated').css('display', 'none');
+  });
+
+});
 </script>

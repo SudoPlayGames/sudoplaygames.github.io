@@ -92,6 +92,16 @@ a.btn-default:hover {
   color: #000;
 }
 
+.update-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+#content-updated, #content-updating {
+  display: none;
+}
+
 
 /* 
  * Home 
@@ -246,7 +256,7 @@ div#about .avatar-container .badge {
  * Code 
  * =================================================================
  */
-div#code .panel-footer {
+ div#code .panel-footer {
   font-size: 24px;
 }
 
@@ -268,6 +278,12 @@ div#code div.panel-footer a {
 
 div#code div.panel-footer a:hover {
   color: #000;
+}
+
+div#code div.panel-heading .badge {
+  font-weight: normal;
+  padding: 5px 9px;
+  background-color: #777;
 }
 
 @media screen and (max-width: 500px) {
