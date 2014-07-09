@@ -44,24 +44,17 @@
 </footer>
 
 <script type="text/javascript">
-// Check if a new cache is available on page load.
 $(document).ready(function(e) {
 
   var appCache = window.applicationCache;
 
   $(appCache).bind('downloading', function(e) {
     $('#content-updating').css('display', 'block');
-    //$('#content-updated').css('display', 'none');
   });
 
   $(appCache).bind('updateready', function(e) {
     appCache.swapCache();
     window.location.reload();
-  });
-
-  $(appCache).bind('noupdate', function(e) {
-    //$('#content-updating').hide('fast');
-    //$('#content-updated').css('display', 'none');
   });
 
 });
