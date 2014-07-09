@@ -55,6 +55,7 @@ $(document).ready(function(e) {
   $(appCache).bind('updateready', function(e) {
     appCache.swapCache();
     window.location.reload();
+    $('#content-updating').css('display', 'none');
   });
 
 });
