@@ -58,5 +58,13 @@ $(document).ready(function(e) {
     $('#content-updating').css('display', 'none');
   });
 
+  $(appCache).bind('noupdate', function(e) {
+    $('#content-updating').css('display', 'none');
+  });
+
+  $(appCache).bind('cache', function(e) {
+    $('#content-updating').css('display', 'none');
+  });
+
 });
 </script>
