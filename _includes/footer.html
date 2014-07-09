@@ -63,7 +63,8 @@ $(document).ready(function(e) {
   });
 
   $(appCache).bind('cached', function(e) {
-    $('#content-updating').css('display', 'none');
+    $('#content-updating').slideUp();
+    //$('#content-updating').css('display', 'none');
   });
 
 });
