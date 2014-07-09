@@ -50,8 +50,8 @@ $(document).ready(function(e) {
   var appCache = window.applicationCache;
 
   $(appCache).bind('checking', function(e) {
-    $('#content-updating').css('display', 'block');
-    $('#content-updated').css('display', 'none');
+    //$('#content-updating').css('display', 'block');
+    //$('#content-updated').css('display', 'none');
   });
 
   $(appCache).bind('updateready', function(e) {
