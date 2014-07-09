@@ -49,8 +49,8 @@ $(document).ready(function(e) {
 
   var appCache = window.applicationCache;
 
-  $(appCache).bind('checking', function(e) {
-    //$('#content-updating').css('display', 'block');
+  $(appCache).bind('downloading', function(e) {
+    $('#content-updating').css('display', 'block');
     //$('#content-updated').css('display', 'none');
   });
 
@@ -60,8 +60,8 @@ $(document).ready(function(e) {
   });
 
   $(appCache).bind('noupdate', function(e) {
-    $('#content-updating').css('display', 'none');
-    $('#content-updated').css('display', 'none');
+    //$('#content-updating').hide('fast');
+    //$('#content-updated').css('display', 'none');
   });
 
 });
