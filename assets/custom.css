@@ -102,10 +102,6 @@ a.btn-default:hover {
   display: none;
 }
 
-#discourse-comments iframe {
-  padding-bottom: 8px;
-}
-
 
 /* 
  * Home 
