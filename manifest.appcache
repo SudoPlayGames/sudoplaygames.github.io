@@ -5,7 +5,7 @@ CACHE MANIFEST
 # rev {{ site.time | date_to_xmlschema }}
 
 CACHE:
-/assets/games.css
+/assets/custom.css
 /assets/main.css
 
 /assets/logo-small.png
