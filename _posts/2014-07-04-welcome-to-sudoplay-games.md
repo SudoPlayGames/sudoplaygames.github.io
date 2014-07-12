@@ -1,10 +1,10 @@
 ---
-layout: post
-title:  "Welcome to SudoPlay Games!"
-date:   2014-07-04 21:47:07
-categories: news
+title:  Welcome to SudoPlay Games!
 author: Jason Taylor
 forumuser: codetaylor
+layout: post
+categories:
+  - News
 ---
 
 Welcome to our new website!
