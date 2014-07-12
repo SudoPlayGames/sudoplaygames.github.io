@@ -33,7 +33,7 @@ CACHE:
 /games/index.html
 
 {% for post in site.posts %}
-{{ post.id }}/index.html
+{{ post.id }}.html
 {% endfor %}
 
 NETWORK:
