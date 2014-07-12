@@ -16,21 +16,30 @@
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
-        {% if page.url == "/" %}
-          <li class="active"><a href="/"><i class="fa fa-home fa-lg"></i>&nbsp;&nbsp;Home</a></li>
-        {% else %}
-          <li><a href="/"><i class="fa fa-home fa-lg"></i>&nbsp;&nbsp;Home</a></li>
-        {% endif %}
-        {% assign sorted_pages = site.pages | sort:"name" %}
-        {% for node in sorted_pages %}
-          {% if node.title %}
-            {% if page.url == node.url %}
-              <li class="active"> {% else %} <li> {% endif %}
-                <a href="{{ node.url | prepend: site.baseurl }}">
-                <i class="fa {{ node.icon }} fa-lg"></i>&nbsp;&nbsp;{{ node.title }}</a>
-              </li>
-          {% endif %}
-        {% endfor %}
+        <!-- Home -->
+        {% if page.url == "/" %}<li class="active">{% else %}<li>{% endif %}
+          <a href="/">
+          <i class="fa fa-home fa-lg"></i>&nbsp;&nbsp;Home</a>
+        </li>
+
+        <!-- Games -->
+        {% if page.url == "/games/" %}<li class="active">{% else %}<li>{% endif %}
+          <a href="/games/">
+          <i class="fa fa-gamepad fa-lg"></i>&nbsp;&nbsp;Games</a>
+        </li>
+
+        <!-- Code -->
+        {% if page.url == "/code/" %}<li class="active">{% else %}<li>{% endif %}
+          <a href="/code/">
+          <i class="fa fa-code fa-lg"></i>&nbsp;&nbsp;Code</a>
+        </li>
+
+        <!-- About -->
+        {% if page.url == "/about/" %}<li class="active">{% else %}<li>{% endif %}
+          <a href="/about/">
+          <i class="fa fa-info-circle fa-lg"></i>&nbsp;&nbsp;About</a>
+        </li>
+
       </ul>
     </div><!--/.navbar-collapse -->
   </div>
