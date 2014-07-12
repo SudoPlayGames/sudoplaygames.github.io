@@ -9,4 +9,4 @@ github_username:  sudoplaygames
 
 # Build settings
 markdown: kramdown
-permalink: /:year/:month/:day/:title.html
+permalink: /blog/:year/:month/:day/:title.html
