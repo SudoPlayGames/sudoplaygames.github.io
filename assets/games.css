@@ -98,7 +98,7 @@ a.btn-default:hover {
   margin-right: 8px;
 }
 
-#content-updating {
+#content-updating, #content-error {
   display: none;
 }
 

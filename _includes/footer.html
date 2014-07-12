@@ -67,5 +67,10 @@ $(document).ready(function(e) {
     //$('#content-updating').css('display', 'none');
   });
 
+  $(appCache).bind('error', function(e) {
+    $('#content-updating').css('display', 'none');
+    $('#content-updating').css('display', 'none');
+  });
+
 });
 </script>
