@@ -4,6 +4,7 @@ title:  "Welcome to SudoPlay Games!"
 date:   2014-07-04 21:47:07
 categories: news
 author: Jason Taylor
+forumuser: codetaylor
 ---
 
 Welcome to our new website!
