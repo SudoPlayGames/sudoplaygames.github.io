@@ -49,6 +49,10 @@ a.btn-default:hover {
   border-bottom: #7fd7d7 solid 3px;
 }
 
+.nav>li>a {
+  padding-right: 14px;
+}
+
 .site-footer .logo {
   float: left;
   margin-right: 8px;
@@ -100,6 +104,42 @@ a.btn-default:hover {
 
 #content-updating, #content-error {
   display: none;
+}
+
+
+/* 
+ * Post 
+ * =================================================================
+ */
+
+ .post .post-image {
+  display: inline-block;
+  margin-top: 4px;
+}
+
+.post .image-row {
+  margin: 0px;
+  padding: 0px;
+}
+
+.post .image-row p {
+  margin: 0px;
+}
+
+.post .image-col {
+  margin: 0px;
+  padding: 0px;
+}
+
+.post #post-nav {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.post #post-next {
+  float: right;
 }
 
 
@@ -253,6 +293,7 @@ div#about .avatar-container .badge {
   display: none;
 }
 
+
 /* 
  * Code 
  * =================================================================
@@ -287,6 +328,24 @@ div#code div.panel-heading .badge {
   background-color: #777;
 }
 
+@media screen and (max-width: 442px) {
+
+  .post .image-row-lg img {
+    width: 182px;
+    height: 137px;
+  }
+
+}
+
+@media screen and (min-width: 443px) {
+
+  .post .image-row-lg img {
+    width: 368px;
+    height: 276px;
+  }
+
+}
+
 @media screen and (max-width: 500px) {
 
   .hidden-xxs {
@@ -296,7 +355,21 @@ div#code div.panel-heading .badge {
   .visible-xxs-block { display: block; }
   .visible-xxs-inline { display: inline; }
   .visible-xxs-inline-block { display: inline-block; }
+
+  .post .image-row-sm img {
+    width: 182px;
+    height: 137px;
+  }
   
+}
+
+@media screen and (min-width: 501px) {
+
+  .post .image-row-sm img, .post .image-row-lg img {
+    width: 368px;
+    height: 276px;
+  }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -307,6 +380,24 @@ div#code div.panel-heading .badge {
 
   .navbar .container {
     padding-left: 15px;
+  }
+
+}
+
+@media screen and (min-width: 815px) {
+
+  .post .image-row .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+
+  .post .image-col.second {
+    left: 2px;
+  }
+
+  .post .image-row-lg img {
+    width: 740px;
+    height: 555px;
   }
 
 }
