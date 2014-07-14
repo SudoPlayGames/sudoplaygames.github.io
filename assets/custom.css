@@ -112,15 +112,15 @@ a.btn-default:hover {
  * =================================================================
  */
 
- .post .post-image {
-  display: inline-block;
-  margin-top: 4px;
-}
-
-.post .image-row {
+ .post .image-row {
   margin: 0px;
   padding: 0px;
   display: block;
+}
+
+.post .image-row img {
+  display: inline-block;
+  margin-top: 4px;
 }
 
 .post .image-row p {
