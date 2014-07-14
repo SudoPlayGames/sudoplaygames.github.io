@@ -112,7 +112,11 @@ a.btn-default:hover {
  * =================================================================
  */
 
- .post .image-row {
+ .post .categories .badge {
+  font-weight: normal;
+}
+
+.post .image-row {
   margin: 0px;
   padding: 0px;
   display: block;
