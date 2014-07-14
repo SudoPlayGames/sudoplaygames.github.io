@@ -144,6 +144,10 @@ a.btn-default:hover {
   float: right;
 }
 
+.post #discourse-comments {
+  min-height: 32px;
+}
+
 .post iframe#discourse-embed-frame {
   min-height: 32px;
   margin-top: 8px;
