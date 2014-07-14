@@ -106,6 +106,10 @@ a.btn-default:hover {
   display: none;
 }
 
+.post-excerpt {
+  color: #555;
+}
+
 
 /* 
  * Post 
