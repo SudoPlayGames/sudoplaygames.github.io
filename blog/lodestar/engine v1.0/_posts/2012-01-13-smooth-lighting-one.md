@@ -1,5 +1,5 @@
 ---
-title: Smooth Lighting #1
+title: Smooth Lighting One
 author: Jason Taylor
 forumuser: codetaylor
 layout: post
