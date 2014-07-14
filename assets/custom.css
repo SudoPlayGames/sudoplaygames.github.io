@@ -120,6 +120,7 @@ a.btn-default:hover {
 .post .image-row {
   margin: 0px;
   padding: 0px;
+  display: block;
 }
 
 .post .image-row p {
@@ -129,6 +130,7 @@ a.btn-default:hover {
 .post .image-col {
   margin: 0px;
   padding: 0px;
+  display: block;
 }
 
 .post #post-nav {

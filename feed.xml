@@ -19,6 +19,7 @@ layout: none
     <updated>{{ post.date | date_to_rfc822 }}</updated>
     <author><name>{{ post.author }}</name></author>
     <forumUser>{% if post.forumuser %}{{ post.forumuser }}{% else %}spgbot{% endif %}</forumUser>
+    <summary type="html">{{ post.excerpt | xml_escape }}</summary>
     <content type="html">{{ post.content | xml_escape }}</content>
   </entry>
   {% endfor %}
