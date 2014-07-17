@@ -102,7 +102,7 @@ body div.main-container {
 
 .posts { list-style-type: none; }
 
-.posts li { margin-bottom: 30px; }
+.posts li { margin-bottom: 24px; }
 
 .posts .post-link {
   font-size: 24px;

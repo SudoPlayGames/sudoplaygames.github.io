@@ -10,3 +10,6 @@ github_username:  sudoplaygames
 # Build settings
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title.html
+paginate: 5
+paginate_base: "/blog/page"
+paginate_path: "/blog/page:num"

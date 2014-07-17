@@ -85,15 +85,16 @@ a.btn-default:hover {
 }
 
 .btn-primary {
-  background-color: #ffc042;
-  background-color: #ffaa00;
-  border-color: #000;
+  background-color: #53b5b5;
+  border-color: #2c6161;
 }
 
 .btn-primary:hover {
-  background-color: #ffbf40;
-  border-color: #000;
-  color: #000;
+  background-color: #5fcfcf;
+}
+
+a.btn-primary {
+  color: #fff;
 }
 
 .update-icon {
@@ -108,6 +109,28 @@ a.btn-default:hover {
 
 .post-excerpt {
   color: #555;
+}
+
+.pagination {
+  display: block;
+  text-align: center;
+}
+
+.pagination .next {
+  float: left;
+}
+
+.pagination .previous {
+  float: right;
+}
+
+.pagination .page-number {
+  font-size: 12px;
+  color: #555;
+}
+
+.invisible {
+  visibility: none;
 }
 
 
@@ -172,7 +195,10 @@ a.btn-default:hover {
   letter-spacing: -1.75px;
   line-height: 1;
   font-weight: 300;
-  margin-top: 0px;
+}
+
+div#home h1#recent-news {
+  padding-top: 16px;
 }
 
 div#home a#btn-preorder {
@@ -201,6 +227,13 @@ div#home div#lodestar-callout p.title {
   color: #fff;
   font-size: 42px;
   letter-spacing: 1px;
+}
+
+#read-more {
+  margin: 0 auto;
+  margin-bottom: 32px;
+  display: block;
+  font-weight: bold;
 }
 
 

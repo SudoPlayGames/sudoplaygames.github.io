@@ -1,0 +1,37 @@
+---
+layout: default
+title: Blog
+---
+
+<div id="blog">
+  <ul class="posts">
+    {% for post in paginator.posts %}
+    <li>
+      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <span class="post-excerpt">{{ post.excerpt }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <!-- Pagination links -->
+  <div class="pagination">
+    {% if paginator.next_page %}
+      <a href="{{ site.paginate_base }}{{ paginator.next_page }}" class="next btn"><i class="fa fa-angle-left"></i>&nbsp;Older</a>
+    {% else %}
+      <span class="next btn invisible"><i class="fa fa-angle-left"></i>&nbsp;Older</span>
+    {% endif %}
+
+    <span class="page-number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+    {% if paginator.previous_page %}
+      {% if paginator.previous_page == 1 %}
+        <a href="/blog/" class="previous btn">Newer&nbsp;<i class="fa fa-angle-right"></i></a>
+      {% else %}
+        <a href="{{ site.paginate_base }}{{ paginator.previous_page }}" class="previous btn">Newer&nbsp;<i class="fa fa-angle-right"></i></a>
+      {% endif %}
+    {% else %}
+      <span class="previous btn invisible">Newer&nbsp;<i class="fa fa-angle-right"></i></span>
+    {% endif %}
+  </div>
+</div>
