@@ -71,5 +71,15 @@ $(document).ready(function(e) {
     $('#content-error').css('display', 'block');
   });
 
+  $('.post .image-row img').colorbox({
+    href: function(){
+      return $(this).attr('src');
+    },
+    maxWidth: '800px',
+    maxHeight: '600px',
+    scalePhotos: true,
+    rel: 'group'
+  });
+
 });
 </script>
