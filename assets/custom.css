@@ -133,6 +133,14 @@ a.btn-primary {
   visibility: none;
 }
 
+table {
+  
+}
+
+td, th {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
 
 /* 
  * Post 
