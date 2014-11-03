@@ -8,7 +8,7 @@
   padding: 0;
 }
 
-html, body { 
+html, body {
   height: 100%;
 }
 
@@ -187,7 +187,7 @@ body div.main-container {
   -moz-border-radius: 3px;
   border-radius: 3px;
   font-size: 15px;
-  overflow:scroll;
+  overflow:none;
 }
 
 .post code { padding: 1px 5px; }
