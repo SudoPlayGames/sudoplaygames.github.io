@@ -1,5 +1,5 @@
 ---
-layout: nil
+layout: null
 ---
 CACHE MANIFEST
 # rev {{ site.time | date_to_xmlschema }}
