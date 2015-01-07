@@ -134,7 +134,7 @@ a.btn-primary {
 }
 
 table {
-  
+
 }
 
 td, th {
@@ -142,8 +142,8 @@ td, th {
   border: 1px solid #ccc;
 }
 
-/* 
- * Post 
+/*
+ * Post
  * =================================================================
  */
 
@@ -193,8 +193,8 @@ td, th {
 }
 
 
-/* 
- * Home 
+/*
+ * Home
  * =================================================================
  */
 
@@ -245,8 +245,8 @@ div#home div#lodestar-callout p.title {
 }
 
 
-/* 
- * Games 
+/*
+ * Games
  * =================================================================
  */
 
@@ -302,7 +302,7 @@ div#game-description {
 }
 
 
-/* 
+/*
  * About
  * =================================================================
  */
@@ -347,15 +347,15 @@ div#about .avatar-container .badge {
   padding: 5px 9px;
 }
 
-.visible-xxs-block, 
+.visible-xxs-block,
 .visible-xxs-inline,
 .visible-xxs-inline-block {
   display: none;
 }
 
 
-/* 
- * Code 
+/*
+ * Code
  * =================================================================
  */
  div#code .panel-footer {
@@ -420,7 +420,7 @@ div#code div.panel-heading .badge {
     width: 182px;
     height: 137px;
   }
-  
+
 }
 
 @media screen and (min-width: 501px) {
@@ -428,6 +428,7 @@ div#code div.panel-heading .badge {
   .post .image-row-sm img, .post .image-row-lg img {
     width: 368px;
     height: 276px;
+    margin-right: -1px;
   }
 
 }
