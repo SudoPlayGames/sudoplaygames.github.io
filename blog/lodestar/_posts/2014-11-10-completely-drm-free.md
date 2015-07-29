@@ -5,7 +5,7 @@ forumuser: codetaylor
 layout: post
 ---
 
-Last week, I rewrote the launcher from the ground up rendering Lodestar: Stygian skies truly and completely DRM free.
+Last week, I rewrote the launcher from the ground up rendering Lodestar: Stygian Skies truly and completely DRM free.
 
 {% include image-row-lg.md image="new-launcher.png" %}
 

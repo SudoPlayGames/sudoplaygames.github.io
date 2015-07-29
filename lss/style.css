@@ -1,0 +1,134 @@
+body {
+  background: #000 url('preload-2048.jpg') fixed;
+  color: #FFF;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 338px;
+  height: 130px;
+  padding-top: 30px;
+}
+h2{
+  font-family: "Six Caps", sans-serif;
+  font-weight: normal;
+  text-align: center;
+  font-size: 2.75em;
+  letter-spacing: 3px;
+  word-spacing: 3px;
+  margin: 0;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 1.1em;
+  margin: 0;
+  margin-bottom: 0.25em;
+}
+p a {
+  color: rgb(29, 159, 168);
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(204, 204, 204);
+  font-size: 0.9em;
+  margin: 0;
+  margin-bottom: 0.5em;
+  line-height: 1.8em;
+}
+p.center {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+ol li {
+  margin-top: 1.5em;
+}
+ul li {
+  margin-top: 0;
+}
+img.img-left {
+  float: left;
+  margin-right: 15px;
+  border: 1px solid #FFF;
+}
+.section img.img-center {
+  border: 1px solid #FFF;
+  width: 215px;
+  margin: 10px;
+}
+div.clear {
+  height: 1px;
+  clear: both;
+}
+
+div.section {
+  width: 725px;
+  background: rgba(0, 0, 0, 0.6);
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding: 20px;
+}
+
+div#preorder a {
+  height: 40px;
+  width: 240px;
+  display: block;
+  background: url('preorder-button-lb.png');
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 320px;
+
+}
+div#preorder a:hover {
+  background: url('preorder-button-lb.png');
+  background-position: bottom;
+}
+div#preorder span {
+  display: none;
+}
+
+#connect {
+  margin-bottom: 20px;
+  width: 252px;
+  padding-left: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a.icon {
+  height: 32px;
+  width: 32px;
+  margin-right: 10px;
+  display: block;
+  float: left;
+  transition: background .2s ease-in
+}
+a.twitter:hover { background: #00b0ef; }
+a.facebook:hover { background: #265999; }
+a.tumblr:hover { background: #174863; }
+a.youtube:hover { background: #f00028; }
+a.rss:hover { background: #ff7600; }
+a.email:hover { background: #666666; }
+
+div#footer {
+  background: rgba(0, 0, 0, 0.6);
+  margin-top: 50px;
+}
+div#footer div {
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+#footer p {
+  font-size: .7em;
+}

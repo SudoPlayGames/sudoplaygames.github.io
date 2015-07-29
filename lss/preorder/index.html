@@ -1,0 +1,696 @@
+<!doctype html>
+<html>
+<head>
+  <title>Lodestar Pre-Order</title>
+  <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+  <link href="http://fonts.googleapis.com/css?family=Six+Caps" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="js/jquery.scrolling-parallax.js"></script>
+  <script src="js/jquery.mousewheel.js"></script>
+  <link href="css/tierpage.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript">
+  $(function () {
+    var top = 0,
+      step = 128,
+      viewport = $(window).height(),
+      body = $.browser.webkit ? $('body') : $('html'),
+      wheel = false;
+
+    $('body').mousewheel(function(event, delta) {
+      wheel = true;
+      if (delta < 0) {
+        top = (top+viewport) >= $(document).height() ? top : top+=step;
+        body.stop().animate({scrollTop: top}, 200, function () {
+          wheel = false;
+        });
+      } else {
+        top = top <= 0 ? 0 : top-=step;
+        body.stop().animate({scrollTop: top}, 200, function () {
+          wheel = false;
+        });
+      }
+      return false;
+    });
+
+    $(window).on('resize', function (e) {
+      viewport = $(this).height();
+    });
+
+    $(window).on('scroll', function (e) {
+      if (!wheel)
+        top = $(this).scrollTop();
+    });
+
+});
+    $( window ).scroll(function() {
+      var y = -$( window ).scrollTop() / 1.5;
+      $('#body-wrapper').css('background-position', 'center ' + y + 'px');
+    });
+  </script>
+</head>
+<body>
+<div id="body-wrapper">
+
+<div id="logo-wrapper">
+  <div id="logo-image">
+    <h1><a href="../"><img src="images/logo.png" alt="Lodestar: Stygian Skies" id="main-logo" /></a></h1>
+  </div>
+</div>  
+
+<div id="tierbox-wrapper">
+  <div class="title-infobox">
+    <div class="title">
+      <h1>Pre-Order Lodestar!</h1>
+    </div>
+  
+    <div class="title-link">
+      <a href="../">Click here to learn more about our game!</a>
+    </div>
+
+    <div class="title-body">
+      <p>
+      Thanks for your support! Your purchase will be used to directly fund the ongoing development
+    of Lodestar: Stygian Skies. We are currently moving into our closed  alpha phase. When we
+    enter our beta phase, we'll email you with the download info and you'll have access to the
+    beta, the soundtrack, and of course, the final game at no additional cost!
+      </p>
+      <p>
+      If we get on Steam, we'll give you a key for that too!
+      </p>
+    </div>
+
+  </div>
+  
+  <div id="tier-1" class="tierbox">
+    <!-- Initiate Tier Tier -->
+    <div class="tierbox-top">
+      <img class="tierbox-title" src="images/tier-1-title.png" alt="Initiate Tier" title="Initiate Tier" />
+      <img class="tierbox-price" src="images/tier-1-price.png" alt="$15.00" title="$15.00" />
+    </div>
+    <div class="tierbox-mid">
+    <div class="subtitle">
+      
+    </div>
+      <div>
+    
+          <div class="tierbox-item" title="Get the final, complete, polished version of Lodestar!" >
+            <img src="images/item-game.png"  title="Get the final, complete, polished version of Lodestar!" />
+            <div class="item-header">1x Copy of Lodestar</div>
+            <div class="item-sub">Estimated Release: TBA</div>
+          </div>
+      
+          <div class="tierbox-plus">
+            <img src="images/plus.png" />
+          </div>
+        
+          <div class="tierbox-item" title="Be one of the first to play the beta!" >
+            <img src="images/item-beta.png"  title="Be one of the first to play the beta!" />
+            <div class="item-header">Lodestar Beta Invite</div>
+            <div class="item-sub">Estimated Release: TBA</div>
+          </div>
+      
+          <div class="tierbox-plus">
+            <img src="images/plus.png" />
+          </div>
+        
+          <div class="tierbox-item" title="Get the Lodestar soundtrack in a popular DRM free format!" >
+            <img src="images/item-soundtrack.png"  title="Get the Lodestar soundtrack in a popular DRM free format!" />
+            <div class="item-header">Lodestar Soundtrack</div>
+            <div class="item-sub">Estimated Release: TBA</div>
+          </div>
+      
+      </div>
+    
+    </div>
+    <div class="tierbox-bot">
+      <a class="tierbox-buy-button" href="tier/initiate/"></a>
+    </div>
+  </div>
+  
+  <div id="tier-2" class="tierbox">
+    <!-- Themite Tier Tier -->
+    <div class="tierbox-top">
+      <img class="tierbox-title" src="images/tier-2-title.png" alt="Themite Tier" title="Themite Tier" />
+      <img class="tierbox-price" src="images/tier-2-price.png" alt="$20.00" title="$20.00" />
+    </div>
+    <div class="tierbox-mid">
+    <div class="subtitle">
+      
+    </div>
+      <div>
+    
+          <div class="tierbox-item" title="Get the final, complete, polished version of Lodestar!" >
+            <img src="images/item-game.png"  title="Get the final, complete, polished version of Lodestar!" />
+            <div class="item-header">1x Copy of Lodestar</div>
+            <div class="item-sub">Estimated Release: TBA</div>
+          </div>
+      
+          <div class="tierbox-plus">
+            <img src="images/plus.png" />
+          </div>
+        
+          <div class="tierbox-item" title="Be one of the first to play the beta!" >
+            <img src="images/item-beta.png"  title="Be one of the first to play the beta!" />
+            <div class="item-header">Lodestar Beta Invite</div>
+            <div class="item-sub">Estimated Release: TBA</div>
+          </div>
+      
+      </div>
+    
+      <div>
+    
+          <div class="tierbox-item" title="Get the Lodestar soundtrack in a popular DRM free format!" >
+            <img src="images/item-soundtrack.png"  title="Get the Lodestar soundtrack in a popular DRM free format!" />
+            <div class="item-header">Lodestar Soundtrack</div>
+            <div class="item-sub">Estimated Release: TBA</div>
+          </div>
+      
+          <div class="tierbox-plus">
+            <img src="images/plus.png" />
+          </div>
+        
+          <div class="tierbox-item" title="Get a tier one forum badge!" >
+            <img src="images/item-badge.png"  title="Get a tier one forum badge!" />
+            <div class="item-header">Tier One Forum Badge</div>
+            <div class="item-sub">Available: NOW!</div>
+          </div>
+      
+      </div>
+    
+    </div>
+    <div class="tierbox-bot">
+      <a class="tierbox-buy-button" href="tier/themite/"></a>
+    </div>
+  </div>
+  
+  <div id="tier-3" class="tierbox">
+    <!-- Astraean Tier Tier -->
+    <div class="tierbox-top">
+      <img class="tierbox-title" src="images/tier-3-title.png" alt="Astraean Tier" title="Astraean Tier" />
+      <img class="tierbox-price" src="images/tier-3-price.png" alt="$45.00" title="$45.00" />
+    </div>
+    <div class="tierbox-mid">
+    <div class="subtitle">
+      
+    </div>
+      <div>
+    
+          <div class="tierbox-item" title="Get the final, complete, polished version of Lodestar!" >
+            <img src="images/item-game.png"  title="Get the final, complete, polished version of Lodestar!" />
+            <div class="item-header">1x Copy of Lodestar</div>
+            <div class="item-sub">Estimated Release: TBA</div>
+          </div>
+      
+          <div class="tierbox-plus">
+            <img src="images/plus.png" />
+          </div>
+        
+          <div class="tierbox-item" title="Be one of the first to play the beta!" >
+            <img src="images/item-beta.png"  title="Be one of the first to play the beta!" />
+            <div class="item-header">Lodestar Beta Invite</div>
+            <div class="item-sub">Estimated Release: TBA</div>
+          </div>
+      
+          <div class="tierbox-plus">
+            <img src="images/plus.png" />
+          </div>
+        
+          <div class="tierbox-item" title="Get the Lodestar soundtrack in a popular DRM free format!" >
+            <img src="images/item-soundtrack.png"  title="Get the Lodestar soundtrack in a popular DRM free format!" />
+            <div class="item-header">Lodestar Soundtrack</div>
+            <div class="item-sub">Estimated Release: TBA</div>
+          </div>
+      
+      </div>
+    
+      <div>
+    
+          <div class="tierbox-item" title="Get a tier two forum badge!" >
+            <img src="images/item-badge.png"  title="Get a tier two forum badge!" />
+            <div class="item-header">Tier Two Forum Badge</div>
+            <div class="item-sub">Available: NOW!</div>
+          </div>
+      
+          <div class="tierbox-plus">
+            <img src="images/plus.png" />
+          </div>
+        
+          <div class="tierbox-item" title="We'll add your name to our random unit name generator!" >
+            <img src="images/item-name.png"  title="We'll add your name to our random unit name generator!" />
+            <div class="item-header">Your Name for Units</div>
+            <div class="item-sub">Added to name generator</div>
+          </div>
+      
+      </div>
+    
+    </div>
+    <div class="tierbox-bot">
+      <a class="tierbox-buy-button" href="tier/astraean/"></a>
+    </div>
+  </div>
+  
+  <div id="tier-4" class="tierbox">
+    <!-- Hyperion Tier Tier -->
+    <div class="tierbox-top">
+      <img class="tierbox-title" src="images/tier-4-title.png" alt="Hyperion Tier" title="Hyperion Tier" />
+      <img class="tierbox-price" src="images/tier-4-price.png" alt="$75.00" title="$75.00" />
+    </div>
+    <div class="tierbox-mid">
+    <div class="subtitle">
+      
+    </div>
+      <div>
+    
+          <div class="tierbox-item" title="Get the final, complete, polished version of Lodestar!" >
+            <img src="images/item-game.png"  title="Get the final, complete, polished version of Lodestar!" />
+            <div class="item-header">1x Copy of Lodestar</div>
+            <div class="item-sub">Estimated Release: TBA</div>
+          </div>
+      
+          <div class="tierbox-plus">
+            <img src="images/plus.png" />
+          </div>
+        
+          <div class="tierbox-item" title="Be one of the first to play the beta!" >
+            <img src="images/item-beta.png"  title="Be one of the first to play the beta!" />
+            <div class="item-header">Lodestar Beta Invite</div>
+            <div class="item-sub">Estimated Release: TBA</div>
+          </div>
+      
+          <div class="tierbox-plus">
+            <img src="images/plus.png" />
+          </div>
+        
+          <div class="tierbox-item" title="Get the Lodestar soundtrack in a popular DRM free format!" >
+            <img src="images/item-soundtrack.png"  title="Get the Lodestar soundtrack in a popular DRM free format!" />
+            <div class="item-header">Lodestar Soundtrack</div>
+            <div class="item-sub">Estimated Release: TBA</div>
+          </div>
+      
+      </div>
+    
+      <div>
+    
+          <div class="tierbox-item" title="Get a tier three forum badge!" >
+            <img src="images/item-badge.png"  title="Get a tier three forum badge!" />
+            <div class="item-header">Tier Three Forum Badge</div>
+            <div class="item-sub">Available: NOW!</div>
+          </div>
+      
+          <div class="tierbox-plus">
+            <img src="images/plus.png" />
+          </div>
+        
+          <div class="tierbox-item" title="We'll add your name to our random unit name generator!" >
+            <img src="images/item-name.png"  title="We'll add your name to our random unit name generator!" />
+            <div class="item-header">Your Name for Units</div>
+            <div class="item-sub">Added to name generator</div>
+          </div>
+      
+          <div class="tierbox-plus">
+            <img src="images/plus.png" />
+          </div>
+        
+          <div class="tierbox-item" title="Get your name listed in the Lodestar credits!" >
+            <img src="images/item-credits.png"  title="Get your name listed in the Lodestar credits!" />
+            <div class="item-header">Your Name in the Credits</div>
+            <div class="item-sub">Under "Hyperion Tier"</div>
+          </div>
+      
+      </div>
+    
+    </div>
+    <div class="tierbox-bot">
+      <a class="tierbox-buy-button" href="tier/hyperion/"></a>
+    </div>
+  </div>
+  
+  <div id="tier-5" class="tierbox">
+    <!-- Del'fos Tier Tier -->
+    <div class="tierbox-top">
+      <img class="tierbox-title" src="images/tier-5-title.png" alt="Del'fos Tier" title="Del'fos Tier" />
+      <img class="tierbox-price" src="images/tier-5-price.png" alt="$500.00" title="$500.00" />
+    </div>
+    <div class="tierbox-mid">
+    <div class="subtitle">
+      Design an Achievement to Challenge Players!
+    </div>
+    <div class="infobox">
+      <div class="infobox-top"></div>
+      <div class="infobox-mid">
+    
+        <div class="image">
+          <img src="images/tier-5-infobox.png" />
+        </div>
+        <div class="text">
+          Submit your achievement idea and we'll add it to Lodestar's list of player collectible challenge awards!
+        </div>
+      <div class="clearfix"></div>
+      </div>
+      <div class="infobox-bot"></div>
+    </div>
+    
+      <div>
+    
+          <div class="tierbox-item" title="Get the final, complete, polished version of Lodestar!" >
+            <img src="images/item-game.png"  title="Get the final, complete, polished version of Lodestar!" />
+            <div class="item-header">1x Copy of Lodestar</div>
+            <div class="item-sub">Estimated Release: TBA</div>
+          </div>
+      
+          <div class="tierbox-plus">
+            <img src="images/plus.png" />
+          </div>
+        
+          <div class="tierbox-item" title="Be one of the first to play the beta!" >
+            <img src="images/item-beta.png"  title="Be one of the first to play the beta!" />
+            <div class="item-header">Lodestar Beta Invite</div>
+            <div class="item-sub">Estimated Release: TBA</div>
+          </div>
+      
+          <div class="tierbox-plus">
+            <img src="images/plus.png" />
+          </div>
+        
+          <div class="tierbox-item" title="Get the Lodestar soundtrack in a popular DRM free format!" >
+            <img src="images/item-soundtrack.png"  title="Get the Lodestar soundtrack in a popular DRM free format!" />
+            <div class="item-header">Lodestar Soundtrack</div>
+            <div class="item-sub">Estimated Release: TBA</div>
+          </div>
+      
+      </div>
+    
+      <div>
+    
+          <div class="tierbox-item" title="Get a tier four forum badge!" >
+            <img src="images/item-badge.png"  title="Get a tier four forum badge!" />
+            <div class="item-header">Tier Four Forum Badge</div>
+            <div class="item-sub">Available: NOW!</div>
+          </div>
+      
+          <div class="tierbox-plus">
+            <img src="images/plus.png" />
+          </div>
+        
+          <div class="tierbox-item" title="We'll add your name to our random unit name generator!" >
+            <img src="images/item-name.png"  title="We'll add your name to our random unit name generator!" />
+            <div class="item-header">Your Name for Units</div>
+            <div class="item-sub">Added to name generator</div>
+          </div>
+      
+          <div class="tierbox-plus">
+            <img src="images/plus.png" />
+          </div>
+        
+          <div class="tierbox-item" title="Get your name listed in the Lodestar credits!" >
+            <img src="images/item-credits.png"  title="Get your name listed in the Lodestar credits!" />
+            <div class="item-header">Your Name in the Credits</div>
+            <div class="item-sub">Under "Del'fos Tier"</div>
+          </div>
+      
+      </div>
+    
+    </div>
+    <div class="tierbox-bot">
+      <a class="tierbox-buy-button" href="tier/delfos/"></a>
+    </div>
+  </div>
+  
+  <div id="tier-6" class="tierbox">
+    <!-- Del'fi Tier Tier -->
+    <div class="tierbox-top">
+      <img class="tierbox-title" src="images/tier-6-title.png" alt="Del'fi Tier" title="Del'fi Tier" />
+      <img class="tierbox-price" src="images/tier-6-price.png" alt="$1000.00" title="$1000.00" />
+    </div>
+    <div class="tierbox-mid">
+    <div class="subtitle">
+      Create a Legendary Weapon for Players to Find!
+    </div>
+    <div class="infobox">
+      <div class="infobox-top"></div>
+      <div class="infobox-mid">
+    
+        <div class="image">
+          <img src="images/tier-6-infobox.png" />
+        </div>
+        <div class="text">
+          Design a unique, legendary weapon for Lodestar! Submit your idea and we'll turn it into a usable weapon in the game!
+        </div>
+      <div class="clearfix"></div>
+      </div>
+      <div class="infobox-bot"></div>
+    </div>
+    
+      <div>
+    
+          <div class="tierbox-item" title="Get the final, complete, polished version of Lodestar!" >
+            <img src="images/item-game.png"  title="Get the final, complete, polished version of Lodestar!" />
+            <div class="item-header">1x Copy of Lodestar</div>
+            <div class="item-sub">Estimated Release: TBA</div>
+          </div>
+      
+          <div class="tierbox-plus">
+            <img src="images/plus.png" />
+          </div>
+        
+          <div class="tierbox-item" title="Be one of the first to play the beta!" >
+            <img src="images/item-beta.png"  title="Be one of the first to play the beta!" />
+            <div class="item-header">Lodestar Beta Invite</div>
+            <div class="item-sub">Estimated Release: TBA</div>
+          </div>
+      
+          <div class="tierbox-plus">
+            <img src="images/plus.png" />
+          </div>
+        
+          <div class="tierbox-item" title="Get the Lodestar soundtrack in a popular DRM free format!" >
+            <img src="images/item-soundtrack.png"  title="Get the Lodestar soundtrack in a popular DRM free format!" />
+            <div class="item-header">Lodestar Soundtrack</div>
+            <div class="item-sub">Estimated Release: TBA</div>
+          </div>
+      
+      </div>
+    
+      <div>
+    
+          <div class="tierbox-item" title="Get a tier five forum badge!" >
+            <img src="images/item-badge.png"  title="Get a tier five forum badge!" />
+            <div class="item-header">Tier Five Forum Badge</div>
+            <div class="item-sub">Available: NOW!</div>
+          </div>
+      
+          <div class="tierbox-plus">
+            <img src="images/plus.png" />
+          </div>
+        
+          <div class="tierbox-item" title="We'll add your name to our random unit name generator!" >
+            <img src="images/item-name.png"  title="We'll add your name to our random unit name generator!" />
+            <div class="item-header">Your Name for Units</div>
+            <div class="item-sub">Added to name generator</div>
+          </div>
+      
+          <div class="tierbox-plus">
+            <img src="images/plus.png" />
+          </div>
+        
+          <div class="tierbox-item" title="Get your name listed in the Lodestar credits!" >
+            <img src="images/item-credits.png"  title="Get your name listed in the Lodestar credits!" />
+            <div class="item-header">Your Name in the Credits</div>
+            <div class="item-sub">Under "Del'fi Tier"</div>
+          </div>
+      
+      </div>
+    
+    </div>
+    <div class="tierbox-bot">
+      <a class="tierbox-buy-button" href="tier/delfi/"></a>
+    </div>
+  </div>
+  
+  <div id="tier-7" class="tierbox">
+    <!-- Ef'kos Nan Tier Tier -->
+    <div class="tierbox-top">
+      <img class="tierbox-title" src="images/tier-7-title.png" alt="Ef'kos Nan Tier" title="Ef'kos Nan Tier" />
+      <img class="tierbox-price" src="images/tier-7-price.png" alt="$2000.00" title="$2000.00" />
+    </div>
+    <div class="tierbox-mid">
+    <div class="subtitle">
+      Create Your Own Enemy Unit!
+    </div>
+    <div class="infobox">
+      <div class="infobox-top"></div>
+      <div class="infobox-mid">
+    
+        <div class="image">
+          <img src="images/tier-7-infobox.png" />
+        </div>
+        <div class="text">
+          Design an enemy unit for Lodestar! Submit your idea and we'll turn it into an enemy unit in the game!
+        </div>
+      <div class="clearfix"></div>
+      </div>
+      <div class="infobox-bot"></div>
+    </div>
+    
+      <div>
+    
+          <div class="tierbox-item" title="Get the final, complete, polished version of Lodestar!" >
+            <img src="images/item-game.png"  title="Get the final, complete, polished version of Lodestar!" />
+            <div class="item-header">1x Copy of Lodestar</div>
+            <div class="item-sub">Estimated Release: TBA</div>
+          </div>
+      
+          <div class="tierbox-plus">
+            <img src="images/plus.png" />
+          </div>
+        
+          <div class="tierbox-item" title="Be one of the first to play the beta!" >
+            <img src="images/item-beta.png"  title="Be one of the first to play the beta!" />
+            <div class="item-header">Lodestar Beta Invite</div>
+            <div class="item-sub">Estimated Release: TBA</div>
+          </div>
+      
+          <div class="tierbox-plus">
+            <img src="images/plus.png" />
+          </div>
+        
+          <div class="tierbox-item" title="Get the Lodestar soundtrack in a popular DRM free format!" >
+            <img src="images/item-soundtrack.png"  title="Get the Lodestar soundtrack in a popular DRM free format!" />
+            <div class="item-header">Lodestar Soundtrack</div>
+            <div class="item-sub">Estimated Release: TBA</div>
+          </div>
+      
+      </div>
+    
+      <div>
+    
+          <div class="tierbox-item" title="Get a tier six forum badge!" >
+            <img src="images/item-badge.png"  title="Get a tier six forum badge!" />
+            <div class="item-header">Tier Six Forum Badge</div>
+            <div class="item-sub">Available: NOW!</div>
+          </div>
+      
+          <div class="tierbox-plus">
+            <img src="images/plus.png" />
+          </div>
+        
+          <div class="tierbox-item" title="We'll add your name to our random unit name generator!" >
+            <img src="images/item-name.png"  title="We'll add your name to our random unit name generator!" />
+            <div class="item-header">Your Name for Units</div>
+            <div class="item-sub">Added to name generator</div>
+          </div>
+      
+          <div class="tierbox-plus">
+            <img src="images/plus.png" />
+          </div>
+        
+          <div class="tierbox-item" title="Get your name listed in the Lodestar credits!" >
+            <img src="images/item-credits.png"  title="Get your name listed in the Lodestar credits!" />
+            <div class="item-header">Your Name in the Credits</div>
+            <div class="item-sub">Under "Ef'kos Nan Tier"</div>
+          </div>
+      
+      </div>
+    
+    </div>
+    <div class="tierbox-bot">
+      <a class="tierbox-buy-button" href="tier/efkosnan/"></a>
+    </div>
+  </div>
+  
+  <div id="tier-8" class="tierbox">
+    <!-- The Chosen Tier Tier -->
+    <div class="tierbox-top">
+      <img class="tierbox-title" src="images/tier-8-title.png" alt="The Chosen Tier" title="The Chosen Tier" />
+      <img class="tierbox-price" src="images/tier-8-price.png" alt="$5000.00" title="$5000.00" />
+    </div>
+    <div class="tierbox-mid">
+    <div class="subtitle">
+      Become a part of Lodestar Lore!
+    </div>
+    <div class="infobox">
+      <div class="infobox-top"></div>
+      <div class="infobox-mid">
+    
+        <div class="image">
+          <img src="images/tier-8-infobox.png" />
+        </div>
+        <div class="text">
+          Become a part of the Lodestar Universe! You will be immortalized in the lore as an influential character of your choosing!
+        </div>
+      <div class="clearfix"></div>
+      </div>
+      <div class="infobox-bot"></div>
+    </div>
+    
+      <div>
+    
+          <div class="tierbox-item" title="Get the final, complete, polished version of Lodestar!" >
+            <img src="images/item-game.png"  title="Get the final, complete, polished version of Lodestar!" />
+            <div class="item-header">1x Copy of Lodestar</div>
+            <div class="item-sub">Estimated Release: TBA</div>
+          </div>
+      
+          <div class="tierbox-plus">
+            <img src="images/plus.png" />
+          </div>
+        
+          <div class="tierbox-item" title="Be one of the first to play the beta!" >
+            <img src="images/item-beta.png"  title="Be one of the first to play the beta!" />
+            <div class="item-header">Lodestar Beta Invite</div>
+            <div class="item-sub">Estimated Release: TBA</div>
+          </div>
+      
+          <div class="tierbox-plus">
+            <img src="images/plus.png" />
+          </div>
+        
+          <div class="tierbox-item" title="Get the Lodestar soundtrack in a popular DRM free format!" >
+            <img src="images/item-soundtrack.png"  title="Get the Lodestar soundtrack in a popular DRM free format!" />
+            <div class="item-header">Lodestar Soundtrack</div>
+            <div class="item-sub">Estimated Release: TBA</div>
+          </div>
+      
+      </div>
+    
+      <div>
+    
+          <div class="tierbox-item" title="Get a tier seven forum badge!" >
+            <img src="images/item-badge.png"  title="Get a tier seven forum badge!" />
+            <div class="item-header">Tier Seven Forum Badge</div>
+            <div class="item-sub">Available: NOW!</div>
+          </div>
+      
+          <div class="tierbox-plus">
+            <img src="images/plus.png" />
+          </div>
+        
+          <div class="tierbox-item" title="We'll add your name to our random unit name generator!" >
+            <img src="images/item-name.png"  title="We'll add your name to our random unit name generator!" />
+            <div class="item-header">Your Name for Units</div>
+            <div class="item-sub">Added to name generator</div>
+          </div>
+      
+          <div class="tierbox-plus">
+            <img src="images/plus.png" />
+          </div>
+        
+          <div class="tierbox-item" title="Get your name listed in the Lodestar credits!" >
+            <img src="images/item-credits.png"  title="Get your name listed in the Lodestar credits!" />
+            <div class="item-header">Your Name in the Credits</div>
+            <div class="item-sub">Under "The Chosen Tier"</div>
+          </div>
+      
+      </div>
+    
+    </div>
+    <div class="tierbox-bot">
+      <a class="tierbox-buy-button" href="tier/thechosen/"></a>
+    </div>
+  </div>
+  
+</div>
+</div> <!-- #body-wrapper -->
+</body>
+</html>

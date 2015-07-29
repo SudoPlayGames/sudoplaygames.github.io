@@ -1,2 +1,2 @@
 #!/bin/bash
-git add --all assets/ && git cm "update assets" && git push
+git add --all assets/ && git commit -m "update assets" && git push

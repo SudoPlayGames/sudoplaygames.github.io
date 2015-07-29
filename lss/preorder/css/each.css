@@ -1,0 +1,39 @@
+body {
+    background-color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    background: url('../images/bg-small.jpg');
+}
+
+div.preorder-tier {
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 32px;
+    padding: 16px;
+    padding-left: 64px;
+    padding-right: 64px;
+    background: rgba(0, 0, 0, 0.6);
+}
+.preorder-tier p {
+    display: block;
+    margin: 0 auto;
+    margin-top: 16px;
+    width: 525px;
+    color: #CCC;
+}
+.preorder-tier h1 {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Six Caps', sans-serif;
+    font-size: 54px;
+    font-weight: normal;
+    letter-spacing: 6px;
+    margin-top: 20px;
+    line-height: 1;
+}
+div.preorder-tier-inner {
+    width: 550px;
+    height: 270px;
+    margin: 0 auto;
+    margin-top: 16px;
+}
