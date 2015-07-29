@@ -51,7 +51,7 @@ This is the process that we mimick with the algorithm described below.
       * If the TileBag(m) size is less than the group size threshold
          * Select all tiles in the TileBag(m) and replace the with an index with encoded depth
       * Else
-         * Select all tiles directly adjacent to the previously and replace them with an encoded index
+         * Select all tiles directly adjacent to the previous index and replace them with a new encoded index
    5. ++depth
    6. Goto GetBag
 
@@ -69,3 +69,7 @@ Here are some more visualizations:
 
 {% include image-row-sm.md left="medium-cave-2.png" right="medium-cave-spawn-2.png" %}
 {% include image-row-sm.md left="large-cave-1.png" right="large-cave-spawn-1.png" %}
+
+## Edit
+
+* (July 29, 2015): fixed typo and fixed placement of depth increment
