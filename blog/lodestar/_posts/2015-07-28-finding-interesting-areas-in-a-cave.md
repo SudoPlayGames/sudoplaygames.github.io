@@ -52,8 +52,8 @@ This is the process that we mimick with the algorithm described below.
          * Select all tiles in the TileBag(m) and replace the with an index with encoded depth
       * Else
          * Select all tiles directly adjacent to the previously and replace them with an encoded index
-      * ++depth
-   5. Goto GetBag
+   5. ++depth
+   6. Goto GetBag
 
 ## Results
 
