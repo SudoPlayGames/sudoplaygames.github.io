@@ -2,8 +2,8 @@ body
 {
     background-color: #000000;
     margin: 0px;
-    height: 4096px;
-    min-height: 4096px;
+    height: 5120px;/*4096px;*/
+    min-height: 5120px;/*4096px;*/
     font-family: Arial,Tahoma,Verdana,sans-serif;
 }
 
@@ -33,6 +33,7 @@ h1 {
     background: #000000 url('../images/bg.jpg') no-repeat fixed;
     background-position: center top;
     padding-top: 32px;
+    padding-bottom: 1024px;
 }
 #tierbox-wrapper
 {
