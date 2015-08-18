@@ -72,4 +72,5 @@ Here are some more visualizations:
 
 ## Edit
 
+* (August 17, 2015): fixed typo
 * (July 29, 2015): fixed typo and fixed placement of depth increment
