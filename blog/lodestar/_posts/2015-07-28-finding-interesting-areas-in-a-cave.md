@@ -21,7 +21,7 @@ Now that we have these, how can we identify areas of interest in the mask? Let's
 
 The solution that we came up with involves tracing rings around the edges of the mask (picture wood grain or a topographical map) and assigning an incremental number to each ring. Imagine a 3d printer using the area mask as a base and each layer that it prints on top of that base is slightly smaller than the last, until the last point is printed. You would have something that resembled a grouping of stalagmites. Now with this printed model, you could measure the length of each stalagmite to determine the room size and it's a pretty good bet that the tip of each stalagmite represents the center of a room-like area.
 
-This is the process that we mimick with the algorithm described below.
+This is the process that we mimic with the algorithm described below.
 
 ### Definitions
 
