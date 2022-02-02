@@ -1,37 +1,15 @@
----
-layout: default
----
-
-<div id="home">
-
-  <!--
-  <div id="lodestar-callout">
-    <img class="hidden-xxs" src="/assets/lodestar_logo.png" />
-    <p class="visible-xxs-block title">Lodestar: Stygian Skies</p>
-    <p>... a procedural, voxel-based, tactical, sci-fi role-playing game in development for Windows, Linux, and Macintosh. Explore planets, find resources, unlock unit classes, augment your team and engage in turn-based combat on destructible terrain.</p>
-    <p class="os">
-      <i class="fa fa-windows"></i>
-      <i class="fa fa-linux"></i>
-      <i class="fa fa-apple"></i>
-    </p>
-    <p><a id="btn-preorder" class="btn btn-lg btn-success" href="/lss/preorder/" role="button">Pre-Order Today!</a></p>
-  </div>
-  -->
-
-  {% include downloading.html %}
-
-  <h1 id="recent-news">Latest News</h1>
-
-  <ul class="posts">
-    {% for post in site.posts limit:5 %}
-    <li>
-      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      <span class="post-excerpt">{{ post.excerpt }}</span>
-    </li>
-    {% endfor %}
-  </ul>
-
-  <a id="read-more" class="btn btn-primary" href="/blog/page2">Read&nbsp;More&nbsp;&nbsp;<i class="fa fa-arrow-circle-right fa-lg"></i></a>
-
-</div>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sudoplay Games</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="SudoPlay Games is a small, independent game studio located in Oregon, USA.">
+    <link rel="canonical" href="http://www.sudoplaygames.com/">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <img src="sudoplay-games-logo.png" class="center"/>
+  </body>
+</html>
